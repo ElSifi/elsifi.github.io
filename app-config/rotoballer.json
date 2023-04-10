@@ -1,0 +1,50 @@
+{
+  "baseball": {
+    "latest_versions": {
+      "ios": "3.8.5",
+      "android": "3.8.4"
+    },
+    "should_notify": true,
+    "should_lock": false,
+    "new_url": {
+      "ios": "https://apps.apple.com/us/app/fantasy-baseball-by-rotoballer/id815612923",
+      "android": "https://play.google.com/store/apps/details?id=com.rotoballer.baseball"
+    },
+    "title_text": "New Version!",
+    "body_text": "Wanna continue recieving realtime notifications, update to the new version asap!",
+    "update_button_text": "Update now!",
+    "cancel_button_text": "Later"
+  },
+  "basketball": {
+    "latest_versions": {
+      "ios": "1.0.7",
+      "android": "1.0.7"
+    },
+    "should_notify": true,
+    "should_lock": false,
+    "new_url": {
+      "ios": "https://apps.apple.com/us/app/fantasy-nba-by-rotoballer/id1589240266",
+      "android": "https://play.google.com/store/apps/details?id=com.rotoballer.basketball"
+    },
+    "title_text": "New Version!",
+    "body_text": "Wanna continue recieving realtime notifications, update to the new version asap!",
+    "update_button_text": "Update now!",
+    "cancel_button_text": "Later"
+  },
+  "football": {
+    "latest_versions": {
+      "ios": "3.7.6",
+      "android": "3.7.1"
+    },
+    "should_notify": true,
+    "should_lock": false,
+    "new_url": {
+      "ios": "https://apps.apple.com/us/app/fantasy-football-by-rotoballer/id915394322",
+      "android": "https://play.google.com/store/apps/details?id=com.rotoballer.football"
+    },
+    "title_text": "New Version!",
+    "body_text": "Wanna continue recieving realtime notifications, update to the new version asap!",
+    "update_button_text": "Update now!",
+    "cancel_button_text": "Later"
+  }
+}

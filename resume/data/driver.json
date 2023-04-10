@@ -1,0 +1,157 @@
+{
+  "info": {
+    "firstName": "Mohamed",
+    "lastName": "Elsifi",
+    "title": "Mobile Applications Developer",
+    "emailAddress": "mo@badi3.com",
+    "phoneNumber": "+201066276777",
+    "arabicName": "محمد الصيفي",
+    "updateDate": "April 2022",
+    "bio": "With a rich mix of software, business, design, and a sharp eye for details, I find it my ultimate joy to create elegant, meaningful, and intuitive software solutions with the end-user in mind.<br><br>I have <strong>+7 years of software development experience,</strong> making mobile and web applications. I started building native iOS apps back then, when it was iOS 6 and Xcode 4, and have been doing that onto the latest SDK now, in the middle I did some PHP (Laravel framework), and Appcelerator Titanium (Mobile Cross-platform), and Flutter projects.<br><br>I’m a computers engineering graduate with a Very-Good BSc. degree (ranked class 3rd). I also just got my MBA degree with a GPA of 3.9.<br><br>I have always invested time and effort in core skills for building software and this approach has seen me pick up new skills quickly and succeed on challenging projects many times.<br><br>Over the last two years, I have started diversifying my technical skills. I did some web projects and also some Flutter projects, this has exposed me to many other tools that made me enjoy the development process even more. I enjoy all the challenges this industry offers; delivery, leadership, technology, customer satisfaction, innovation, and ongoing learning.<br><br><strong>This is a portfolio of several mobile and web apps I have worked on. My experience goes much further than that with experience as a freelance software developer, managing end-to-end project analysis, launching, and maintenance.</strong>",
+    "skillsCloud": [
+      {
+        "text": "Appcelerator Titanium",
+        "weight": 4
+      },
+      {
+        "text": "Swift",
+        "weight": 5
+      },
+      {
+        "text": "Animation",
+        "weight": 5
+      },
+      {
+        "text": "Laravel",
+        "weight": 3
+      },
+      {
+        "text": "Flutter",
+        "weight": 4
+      },
+      {
+        "text": "UI Design",
+        "weight": 4
+      },
+      {
+        "text": "Cross-platform",
+        "weight": 4
+      },
+      {
+        "text": "Photoshop",
+        "weight": 3
+      },
+      {
+        "text": "AfterEffects",
+        "weight": 2
+      },
+      {
+        "text": "Objective-C",
+        "weight": 4
+      },
+      {
+        "text": "Vue.js",
+        "weight": 3
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Koinz",
+      "description": "<a href=\"http://www.koinz.app\" target=\"_blank\" rel=\"noopener\">Koinz </a> is the intelligent growth engine for restaurants. it is a game-like loyalty platform with a uniquely engaging experience that helps increase customer satisfaction as well as keep them engaged and connected to the brand.",
+      "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/9b/6c/d7/9b6cd740-fb96-943b-1bef-bf20f576aa81/source/1024x1024bb.jpg",
+      "screenShot1": "/resume/images/koinzgif122.gif",
+      "screenShot2": "/resume/images/koinz2.gif",
+      "appStoreLink": "https://apps.apple.com/us/app/koinz-visit-collect-win/id1220667985",
+      "googlePlayLink": "",
+      "tools": [
+        "Xcode",
+        "Animations",
+        "Lottie",
+        "Custome UI components",
+        "Font editing"
+      ],
+      "Challenges": "Along with my friend Mina Maged, we managed to get Koinz up and running with a world-class UI quality and an outstanding user experience. "
+    },
+    {
+      "title": "Steyoyoke",
+      "description": "Christian Legno a world-class music composer, it was an honor helping him rebuild his app. The app is a music and podcast platform for Legno and his colleges.",
+      "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5f/31/06/5f3106cc-ecbd-4d01-d8a0-7c9eef8437d1/source/1024x1024bb.jpg",
+      "screenShot1": "/resume/images/syykGif.gif",
+      "screenShot2": "/resume/images/styyk2.png",
+      "appStoreLink": "https://apps.apple.com/us/app/steyoyoke/id1122066455",
+      "googlePlayLink": "",
+      "tools": [
+        "Xcode",
+        "Swift",
+        "Custome VC Transitions",
+        "Photoshop",
+        "Music Control Center"
+      ],
+      "Challenges": "Having a large global audience with a legacy app already in-use, it was quite a challenge to provide the app in a stable, robust yet neat form. Plus the music player transition wasn't easy too."
+    },
+    {
+      "title": "Earworms",
+      "description": "The leading language-education platform in Europe, with a huge libary of cross-languages musical training.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/b5/48/70b5487a-7d39-ea2f-7fdb-25c0a14d2f5c/source/1024x1024bb.jpg",
+      "screenShot1": "/resume/images/earworms1.png",
+      "screenShot2": "/resume/images/earworms-rolling.gif",
+      "appStoreLink": "https://itunes.apple.com/us/app/earworms-musical-brain-trainer/id1214721881?mt=8",
+      "googlePlayLink": "",
+      "tools": [
+        "In-App-Purchase",
+        "LRC Parsing"
+      ],
+      "Challenges": "Despite the fact that is a cross-platform app, Earworms provides a unique language training experience, I do love this app!"
+    },
+    {
+      "title": "5forLife® Challenge",
+      "description": "Gamified 25 days challenge to build healthy habits",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/26/70/6c/26706c6a-3701-1c63-55ec-b07cc8944a30/source/1024x1024bb.jpg",
+      "screenShot1": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/80/83/e2/8083e241-c407-70cb-6824-8225a65a0101/pr_source.png/460x0w.png",
+      "screenShot2": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/30/3d/26/303d26ce-3c32-01a8-0cc4-145efb55fa6c/pr_source.png/460x0w.png",
+      "appStoreLink": "https://apps.apple.com/ec/app/5forlife-challenge/id1468459140?l=en",
+      "googlePlayLink": "",
+      "tools": [
+        "Local notifications",
+        "In-App-Purchase"
+      ],
+      "Challenges": ""
+    },
+    {
+      "title": "ZAD",
+      "description": "One of the leading grocery shoping apps in Saudi Arabia.",
+      "icon": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c1/74/b0/c174b07e-1e86-cd92-d014-d6e1abe3a909/source/1024x1024bb.jpg",
+      "screenShot1": "/resume/images/zad1.png",
+      "screenShot2": "/resume/images/zad2.png",
+      "appStoreLink": "https://apps.apple.com/us/app/zad/id1177623187",
+      "googlePlayLink": "",
+      "tools": [
+        "Xcode",
+        "Swift",
+        "Firebase"
+      ],
+      "Challenges": "Nothing special, a normal grocery app with a large user base."
+    }
+  ],
+  "feedBack": [
+    {
+      "icon": "https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/5f/31/06/5f3106cc-ecbd-4d01-d8a0-7c9eef8437d1/source/1024x1024bb.jpg",
+      "title": "Christian Legno, Italy.",
+      "url": "http://steyoyoke.com",
+      "text": "professional, skilled and very nice guy."
+    },
+    {
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/70/b5/48/70b5487a-7d39-ea2f-7fdb-25c0a14d2f5c/source/1024x1024bb.jpg",
+      "title": "Christian Victor, Germany.",
+      "url": "http://victormedia.de",
+      "text": "Very successfull work! Mohamed is not only a very skilled programmer but has an essential grasp of what has to be done and adds a lot of creative input to our projects."
+    },
+    {
+      "icon": "/resume/images/dott.jpeg",
+      "title": "Mohamed Fathy, Dott Qatar.",
+      "url": "http://dott.com",
+      "text": "Mohamed delivered good work on this iOS app and I enjoyed working with him. His communication was top-notch, he met all deadlines, and his skills were reasonably strong. At one point I asked for an additional milestone and he was very forthcoming that the additional work was outside his area of expertise. He helped me find additional freelancers to support the work. I enjoyed working with Mohamed and will likely have additional jobs for him in the future."
+    }
+  ]
+}

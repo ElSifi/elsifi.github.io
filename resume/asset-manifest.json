@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.710abd55.chunk.css",
+    "main.js": "/resume/static/js/main.4297cf93.chunk.js",
+    "main.js.map": "/resume/static/js/main.4297cf93.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.937885ad.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.937885ad.js.map",
+    "static/js/2.ce37c45a.chunk.js": "/resume/static/js/2.ce37c45a.chunk.js",
+    "static/js/2.ce37c45a.chunk.js.map": "/resume/static/js/2.ce37c45a.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "precache-manifest.bdb4c29f054ad354af048733206314d3.js": "/resume/precache-manifest.bdb4c29f054ad354af048733206314d3.js",
+    "service-worker.js": "/resume/service-worker.js",
+    "static/css/main.710abd55.chunk.css.map": "/resume/static/css/main.710abd55.chunk.css.map",
+    "static/media/index.css": "/resume/static/media/FiraSans-SemiBold.2de4568e.otf",
+    "static/media/upwork_profile.png": "/resume/static/media/upwork_profile.782a2d18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.937885ad.js",
+    "static/js/2.ce37c45a.chunk.js",
+    "static/css/main.710abd55.chunk.css",
+    "static/js/main.4297cf93.chunk.js"
+  ]
+}
