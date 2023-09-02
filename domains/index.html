@@ -13,6 +13,9 @@
 console.log("The full URL of this page is:<br>" + window.location.href);
 const queryString = window.location.search;
 console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const domain = urlParams.get('domain');
+console.log(domain);
 </script>
 
 </body>
