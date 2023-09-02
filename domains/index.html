@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <script>
+  console.log("The full URL of this page is:<br>" + window.location.href);
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const domain = urlParams.get('domain');
+console.log(domain);
+</script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQVXSM3X96"></script>
 <script>
@@ -8,8 +16,8 @@
   gtag('js', new Date());
 
   gtag('config', 'G-KQVXSM3X96');
-  gtag('event', 'page_view', {
-  domain: "yahoo.com"
+  gtag('event', 'page_view_gtag', {
+  domain_gtag: domain
 });
 </script>
 <body>
@@ -42,17 +50,9 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-  
-//document.getElementById("demo").innerHTML = 
-console.log("The full URL of this page is:<br>" + window.location.href);
-const queryString = window.location.search;
-console.log(queryString);
-const urlParams = new URLSearchParams(queryString);
-const domain = urlParams.get('domain');
-console.log(domain);
 
-logEvent(analytics, 'page_view', {
-  domain: domain
+logEvent(analytics, 'page_view_firebase', {
+  domain_firebase: domain
 });
 
 </script>
