@@ -62,8 +62,6 @@ const queryString = window.location.search;
 console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 const domain = urlParams.get('domain');
-document.title = domain + ' - Domain for Sale';
-document.getElementById('domain').textContent = domain;
 console.log(domain);
 </script>
   <!-- Google tag (gtag.js) -->
@@ -82,7 +80,7 @@ console.log(domain);
     <div class="container">
         <p class="domain-name" id="domain"></p>
         <h1>This domain name may be for sale.</h1>
-<!--         <p>Interested? Let's talk! <a href='mailto&#58;m%&#54;&#70;&#64;&#37;62a&#100;&#105;3&#46;%63&#111;m'>mo&#64;&#98;adi3&#46;&#99;om</a></p> -->
+        <p>The right domain name will lower your future marketing expenses.</p>
         <a href='mailto&#58;m%&#54;&#70;&#64;&#37;62a&#100;&#105;3&#46;%63&#111;m' class="buy-button">Interested? Let's talk! ✉️ mo&#64;&#98;adi3&#46;&#99;om</a>
     </div>
 </body>
@@ -113,5 +111,9 @@ logEvent(analytics, 'page_view_firebase', {
   domain_firebase: domain
 });
 
+</script>
+<script>
+    document.title = domain + ' - Domain for Sale';
+    document.getElementById('domain').textContent = domain;
 </script>
 </html>
