@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Sale Domain: YourDomain.com</title>
+    <title>Domain for Sale</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,6 +62,8 @@ const queryString = window.location.search;
 console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 const domain = urlParams.get('domain');
+document.title = domain + ' - Domain for Sale';
+document.getElementById('domain').textContent = domain;
 console.log(domain);
 </script>
   <!-- Google tag (gtag.js) -->
@@ -78,10 +80,10 @@ console.log(domain);
 </script>
 <body>
     <div class="container">
-        <p class="domain-name">YourDomain.com</p>
+        <p class="domain-name" id="domain"></p>
         <h1>This domain name may be for sale.</h1>
-        <p>Interested? Let's talk! <a href='mailto&#58;m%&#54;&#70;&#64;&#37;62a&#100;&#105;3&#46;%63&#111;m'>mo&#64;&#98;adi3&#46;&#99;om</a></p>
-        <a href="#" class="buy-button">Let's talk!</a>
+<!--         <p>Interested? Let's talk! <a href='mailto&#58;m%&#54;&#70;&#64;&#37;62a&#100;&#105;3&#46;%63&#111;m'>mo&#64;&#98;adi3&#46;&#99;om</a></p> -->
+        <a href='mailto&#58;m%&#54;&#70;&#64;&#37;62a&#100;&#105;3&#46;%63&#111;m' class="buy-button">Interested? Let's talk! ✉️ mo&#64;&#98;adi3&#46;&#99;om</a>
     </div>
 </body>
   <script type="module">
