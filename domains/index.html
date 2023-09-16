@@ -63,7 +63,6 @@ console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 const domain = urlParams.get('domain');
 document.title = domain + ' - Domain for Sale';
-document.getElementById('domain').textContent = domain;
 console.log(domain);
 </script>
   <!-- Google tag (gtag.js) -->
@@ -112,6 +111,6 @@ console.log(domain);
 logEvent(analytics, 'page_view_firebase', {
   domain_firebase: domain
 });
-
+document.getElementById('domain').textContent = domain;
 </script>
 </html>
