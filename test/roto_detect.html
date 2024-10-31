@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source Detection</title>
+</head>
+<body>
+    <h1 id="result">Detecting...</h1>
+
+    <script>
+        function detectSource() {
+            const userAgent = navigator.userAgent;
+            const resultElement = document.getElementById("result");
+
+            // iOS WebView detection: contains "iPhone|iPad|iPod" and lacks "Safari" or "Version"
+            const isIOSWebView = /iPhone|iPad|iPod/.test(userAgent) &&
+                                 !/Safari/.test(userAgent) &&
+                                 !/Version/.test(userAgent);
+
+            // Android WebView detection: contains "Android" and "wv"
+            const isAndroidWebView = /Android/.test(userAgent) && /wv/.test(userAgent);
+
+            // iOS browser detection: contains "iPhone|iPad|iPod" with "Safari" and "Version"
+            const isIOSBrowser = /iPhone|iPad|iPod/.test(userAgent) &&
+                                 /Safari/.test(userAgent) &&
+                                 /Version/.test(userAgent);
+
+            // Android browser detection: contains "Android" and "Chrome" without "wv"
+            const isAndroidBrowser = /Android/.test(userAgent) &&
+                                     /Chrome/.test(userAgent) &&
+                                     !/wv/.test(userAgent);
+
+            if (isIOSWebView) {
+                resultElement.textContent = "App iOS";
+            } else if (isIOSBrowser) {
+                resultElement.textContent = "Not app but iOS";
+            } else if (isAndroidWebView) {
+                resultElement.textContent = "App Android";
+            } else if (isAndroidBrowser) {
+                resultElement.textContent = "Not app but Android";
+            } else {
+                resultElement.textContent = "Not app and not mobile";
+            }
+        }
+
+        detectSource();
+    </script>
+</body>
+</html>
